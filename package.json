@@ -1,0 +1,36 @@
+{
+  "name": "create-babelrc",
+  "version": "0.0.0",
+  "description": "create .babelrc using package.json",
+  "license": "MIT",
+  "repository": "akameco/create-babelrc",
+  "author": {
+    "name": "akameco",
+    "email": "akameco.t@gmail.com",
+    "url": "akameco.github.io"
+  },
+  "bin": "cli.js",
+  "engines": {
+    "node": ">=4"
+  },
+  "scripts": {
+    "prettier": "prettier --write '**/*.js'",
+    "lint": "eslint .",
+    "test": "jest",
+    "test:watch": "jest --watch"
+  },
+  "files": ["index.js", "cli.js"],
+  "keywords": ["cli-app", "cli", ""],
+  "dependencies": {
+    "meow": "^3.7.0",
+    "path-exists": "^3.0.0",
+    "read-pkg-up": "^2.0.0"
+  },
+  "devDependencies": {
+    "eslint": "^4.6.0",
+    "eslint-config-precure": "^0.8.0",
+    "flow-bin": "^0.54.0",
+    "jest": "^20.0.4",
+    "prettier": "^1.6.1"
+  }
+}
