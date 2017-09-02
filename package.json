@@ -26,7 +26,9 @@
   "keywords": [
     "cli-app",
     "cli",
-    ""
+    "babelrc",
+    "babel",
+    "create"
   ],
   "dependencies": {
     "meow": "^3.7.0",
