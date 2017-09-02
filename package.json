@@ -1,6 +1,6 @@
 {
   "name": "create-babelrc",
-  "version": "0.0.0",
+  "version": "0.1.0",
   "description": "create .babelrc using package.json",
   "license": "MIT",
   "repository": "akameco/create-babelrc",
@@ -19,8 +19,15 @@
     "test": "jest",
     "test:watch": "jest --watch"
   },
-  "files": ["index.js", "cli.js"],
-  "keywords": ["cli-app", "cli", ""],
+  "files": [
+    "index.js",
+    "cli.js"
+  ],
+  "keywords": [
+    "cli-app",
+    "cli",
+    ""
+  ],
   "dependencies": {
     "meow": "^3.7.0",
     "path-exists": "^3.0.0",
