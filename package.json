@@ -31,15 +31,15 @@
     "create"
   ],
   "dependencies": {
-    "meow": "^3.7.0",
+    "meow": "^4.0.0",
     "path-exists": "^3.0.0",
-    "read-pkg-up": "^2.0.0"
+    "read-pkg-up": "^3.0.0"
   },
   "devDependencies": {
     "eslint": "^4.6.0",
-    "eslint-config-precure": "^0.8.0",
-    "flow-bin": "^0.54.0",
-    "jest": "^20.0.4",
+    "eslint-config-precure": "^2.4.0",
+    "flow-bin": "^0.66.0",
+    "jest": "^22.4.2",
     "prettier": "^1.6.1"
   }
 }
