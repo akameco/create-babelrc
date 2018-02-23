@@ -1,7 +1,7 @@
 # create-babelrc
 
-[![Greenkeeper badge](https://badges.greenkeeper.io/akameco/create-babelrc.svg)](https://greenkeeper.io/)
 [![Build Status](https://travis-ci.org/akameco/create-babelrc.svg?branch=master)](https://travis-ci.org/akameco/create-babelrc)
+[![Greenkeeper badge](https://badges.greenkeeper.io/akameco/create-babelrc.svg)](https://greenkeeper.io/)
 [![styled with prettier](https://img.shields.io/badge/styled_with-prettier-ff69b4.svg)](https://github.com/prettier/prettier)
 
 > create .babelrc using package.json
