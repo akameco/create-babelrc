@@ -1,4 +1,5 @@
 #!/usr/bin/env node
+/* eslint no-console:0 */
 'use strict'
 const meow = require('meow')
 const pathExists = require('path-exists')
@@ -40,6 +41,6 @@ pathExists('.babelrc').then(exists => {
     })
     .catch(err => {
       console.error(err)
-      process.exit(1)
+      process.exit(1) // eslint-disable-line no-process-exit
     })
 })
