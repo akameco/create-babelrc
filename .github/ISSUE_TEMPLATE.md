@@ -10,7 +10,7 @@ English/日本語(日本語で入力して大丈夫です。日本語の方が�
 - `node` version:
 - `npm` (or `yarn`) version:
 
-**Do you want to request a *feature* or report a *bug*?:**
+**Do you want to request a _feature_ or report a _bug_?:**
 
 **What is the current behavior?:**
 

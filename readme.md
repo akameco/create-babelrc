@@ -20,7 +20,7 @@ package.json
   "devDependencies": {
     "babel-plugin-transform-class-properties": "^6.24.1",
     "babel-preset-env": "^1.6.0",
-    "babel-preset-flow": "^6.23.0",
+    "babel-preset-flow": "^6.23.0"
   }
 }
 ```
@@ -37,13 +37,8 @@ Created .babelrc
 
 ```json
 {
-  "presets": [
-    "env",
-    "flow"
-  ],
-  "plugins": [
-    "transform-class-properties"
-  ]
+  "presets": ["env", "flow"],
+  "plugins": ["transform-class-properties"]
 }
 ```
 
@@ -63,7 +58,6 @@ $ create-babelrc --help
   Examples
     $ create-babelrc
 ```
-
 
 ## License
 
