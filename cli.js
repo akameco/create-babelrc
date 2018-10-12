@@ -39,8 +39,8 @@ pathExists('.babelrc').then(exists => {
       console.log('Created .babelrc\n')
       console.log(result)
     })
-    .catch(err => {
-      console.error(err)
+    .catch(error => {
+      console.error(error)
       process.exit(1) // eslint-disable-line no-process-exit
     })
 })
