@@ -31,9 +31,9 @@
     "create"
   ],
   "dependencies": {
-    "meow": "^4.0.0",
+    "meow": "^5.0.0",
     "path-exists": "^3.0.0",
-    "read-pkg-up": "^3.0.0"
+    "read-pkg-up": "^4.0.0"
   },
   "devDependencies": {
     "eslint": "^5.7.0",
