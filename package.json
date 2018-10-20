@@ -1,6 +1,6 @@
 {
   "name": "create-babelrc",
-  "version": "0.1.0",
+  "version": "1.0.0",
   "description": "create .babelrc using package.json",
   "license": "MIT",
   "repository": "akameco/create-babelrc",
